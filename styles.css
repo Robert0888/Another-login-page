@@ -1,0 +1,55 @@
+body{
+ background: url('./pictures/lavender-background.jpeg') center/cover no-repeat fixed;
+ font-size: 0.8rem;
+}
+div{
+ background: white;
+ height: 300px;
+ width: 300px;
+ display: inline-block;
+ position: relative;
+ top: 40%;
+ left: 40%;
+ text-align: center;
+border-radius: 10px;
+}
+.username{
+ background: rgb(223, 220, 220);
+ width: 150px;
+ height: 30px;
+ text-align: center;
+ border: none;
+ margin: auto;
+ margin-bottom: 5px;
+ transition: 0.7s;
+}
+.password {
+ background: rgb(223, 220, 220);
+ width: 150px;
+ height: 30px;
+ text-align: center;
+ border: none;
+ margin: auto;
+ margin-bottom: 5px;
+ transition: 0.7s;
+}
+.checkbox{
+ display: block;
+ margin: auto;
+}
+.sign{
+ text-decoration: none;
+ color: black;
+ text-transform: uppercase;
+}
+.username:hover{
+ border: 1px solid black;
+ background: white;
+}
+.password:hover {
+ border: 1px solid black;
+ background: white;
+}
+p{
+
+}
